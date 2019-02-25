@@ -1,3 +1,34 @@
 body{
+    background-color: yellow;
+    font-family: PT Sans Narrow;
+}
+
+.navbar-nav{
+    text-transform: uppercase;
+    background-color:orange;
+    
+}
+.nav-link{
+    opacity: 0.7;
+}
+.nav-link:hover{
+    opacity: 1;
+    background-color: #89ff00;
+}
+
+h1{
+    color: white;
+}
+.button-primary{
     background-color: blue;
+}
+.button-secondary{
+    background-color: green;
+}
+
+header{
+    height: 600px;
+    width: 100%;
+    background-image:url("header.jpg");
+    background-size:cover;
 }
